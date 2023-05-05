@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.wrapper {
+    border: 3px solid red;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 200px;
+}
+
+nav li {
+    list-style: none;
+    cursor: pointer;
+}
+
+nav li:hover {
+    color: blue;
+}
+
+img {
+    width: 100px;
+}
